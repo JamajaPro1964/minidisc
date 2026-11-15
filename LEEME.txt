@@ -1,0 +1,34 @@
+MiniDiscManager para móvil (Android) - versión 1
+=================================================
+
+Qué hace
+- Conecta un grabador NetMD (MZ-N505, pletinas NetMD...) al móvil con un cable USB OTG.
+- Lee el disco: título, pistas, grupos, espacio libre en SP/LP2/LP4.
+- Play, pausa, stop, anterior, siguiente y expulsar.
+- Renombrar pistas y el título del disco.
+- Elegir canciones del móvil, escucharlas, cola con orden arrastrando y aviso de repetidas.
+- Grabar en SP, LP2 o LP4, con normalizar volumen opcional.
+
+Requisitos
+- Móvil Android con Google Chrome.
+- Cable o adaptador USB OTG (USB-C o micro-USB a USB-A hembra).
+- La aplicación tiene que abrirse desde una dirección https (por ejemplo GitHub Pages).
+  Abriendo el archivo index.html directamente desde el móvil, Chrome no deja usar el USB.
+
+Publicarla gratis en GitHub Pages (una sola vez)
+1. Crea una cuenta en github.com.
+2. Pulsa "New repository", ponle de nombre minidisc, márcalo como Public y créalo.
+3. Pulsa "uploading an existing file" y arrastra TODOS los archivos de esta carpeta
+   (index.html, manifest.webmanifest, sw.js y los tres iconos). Pulsa "Commit changes".
+4. Ve a Settings > Pages. En "Branch" elige main y / (root) y pulsa Save.
+5. Al cabo de un minuto tendrás la dirección: https://TU_USUARIO.github.io/minidisc/
+
+Instalarla en el móvil
+1. Abre esa dirección en Chrome.
+2. Menú (los tres puntos) > "Añadir a pantalla de inicio" > Instalar.
+3. Conecta el grabador con el cable OTG, enciéndelo con un disco y pulsa Conectar.
+   Chrome preguntará qué aparato usar: elige el MiniDisc.
+
+Todavía no incluye
+- Discos Hi-MD, Hi-SP/Hi-LP, borrar o mover pistas, grupos, copias de la tabla,
+  carátulas, guardar colas.
