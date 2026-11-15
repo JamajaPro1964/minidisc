@@ -1,34 +1,29 @@
-MiniDiscManager para móvil (Android) - versión 1
+MiniDiscManager para móvil (Android) - versión 2
 =================================================
 
 Qué hace
-- Conecta un grabador NetMD (MZ-N505, pletinas NetMD...) al móvil con un cable USB OTG.
-- Lee el disco: título, pistas, grupos, espacio libre en SP/LP2/LP4.
-- Play, pausa, stop, anterior, siguiente y expulsar.
-- Renombrar pistas y el título del disco.
-- Elegir canciones del móvil, escucharlas, cola con orden arrastrando y aviso de repetidas.
-- Grabar en SP, LP2 o LP4, con normalizar volumen opcional.
+- Funciona con grabadores NetMD (MZ-N505, pletinas NetMD...) y con Hi-MD (MZ-NH600...),
+  conectados al móvil con un cable USB OTG.
+- Música: elegir canciones del móvil, escucharlas, buscar, quitar una o vaciar la lista.
+- Cola: ordenar arrastrando, aviso de repetidas, guardar y cargar colas.
+  NetMD: SP, LP2 o LP4. Hi-MD: PCM, ATRAC3 132, ATRAC3 66 o MP3 (solo archivos .mp3).
+  Normalizar volumen opcional.
+- Disco: leer, reproducir (NetMD), renombrar disco y pistas, subir, bajar y mover pistas,
+  grupos (crear, meter, sacar, renombrar, deshacer), eliminar pistas, borrar el disco,
+  formatear como Hi-MD, copias de títulos y grupos, y carátula en imagen para imprimir.
 
 Requisitos
-- Móvil Android con Google Chrome.
-- Cable o adaptador USB OTG (USB-C o micro-USB a USB-A hembra).
-- La aplicación tiene que abrirse desde una dirección https (por ejemplo GitHub Pages).
-  Abriendo el archivo index.html directamente desde el móvil, Chrome no deja usar el USB.
+- Móvil Android con Google Chrome y un cable USB OTG.
+- Abrirla desde https://jamajapro1964.github.io/minidisc/
 
-Publicarla gratis en GitHub Pages (una sola vez)
-1. Crea una cuenta en github.com.
-2. Pulsa "New repository", ponle de nombre minidisc, márcalo como Public y créalo.
-3. Pulsa "uploading an existing file" y arrastra TODOS los archivos de esta carpeta
-   (index.html, manifest.webmanifest, sw.js y los tres iconos). Pulsa "Commit changes".
-4. Ve a Settings > Pages. En "Branch" elige main y / (root) y pulsa Save.
-5. Al cabo de un minuto tendrás la dirección: https://TU_USUARIO.github.io/minidisc/
+Actualizar la versión publicada en GitHub
+1. Entra en github.com/JamajaPro1964/minidisc
+2. Add file > Upload files, arrastra TODOS los archivos de esta carpeta y pulsa Commit changes
+   (sustituye los anteriores).
+3. En el móvil, cierra la app y vuelve a abrirla (si sigue la versión vieja, ábrela otra vez
+   un minuto después).
 
-Instalarla en el móvil
-1. Abre esa dirección en Chrome.
-2. Menú (los tres puntos) > "Añadir a pantalla de inicio" > Instalar.
-3. Conecta el grabador con el cable OTG, enciéndelo con un disco y pulsa Conectar.
-   Chrome preguntará qué aparato usar: elige el MiniDisc.
-
-Todavía no incluye
-- Discos Hi-MD, Hi-SP/Hi-LP, borrar o mover pistas, grupos, copias de la tabla,
-  carátulas, guardar colas.
+Limitaciones
+- Hi-SP y Hi-LP no están: necesitan un programa que solo funciona en Windows.
+- La copia de títulos y grupos no recupera el audio de pistas borradas.
+- Las copias y las colas guardadas se quedan en este móvil.
